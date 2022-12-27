@@ -1,0 +1,2 @@
+class Resord < ApplicationRecord
+end
