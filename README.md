@@ -1,25 +1,12 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# ローカル環境構築手順
 
-Things you may want to cover:
+## 手順
 
-* Ruby version
+```
+docker compose up -d
+docker compose exec web bash
+rails db:create
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
 http://localhost:3001
